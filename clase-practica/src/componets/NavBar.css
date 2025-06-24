@@ -1,0 +1,22 @@
+.navbar{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.categorias{
+    display: flex;
+    list-style-type: none;
+}
+
+
+.categorias li{
+    padding: 0 20px;
+    font-weight: bold;
+}
