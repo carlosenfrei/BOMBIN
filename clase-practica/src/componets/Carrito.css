@@ -6,7 +6,7 @@
     position: relative; 
     display: inline-block;
 }
-h2{
+.canasto h2{
     position: absolute;
     top: 0;
     right: 0;
