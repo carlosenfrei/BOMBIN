@@ -16,7 +16,13 @@
 }
 
 
-.categorias li{
+.categorias .categoria{
     padding: 0 20px;
     font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.categorias .categoria:hover{
+    border-bottom: 5px solid rgb(95, 47, 2);
 }

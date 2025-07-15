@@ -14,6 +14,7 @@ const FormImput = ({ nombre, setNombre, setMostrarSaludo }) => {
     return (
         <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Ingresa tu nombre" value={nombre} onChange={handleChange} />
+            <button type="submit">Ingresar</button> 
         </form>
     );
 
