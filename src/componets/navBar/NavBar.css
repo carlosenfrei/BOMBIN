@@ -1,0 +1,28 @@
+.navbar{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.categorias{
+    display: flex;
+    list-style-type: none;
+}
+
+
+.categorias .categoria{
+    padding: 0 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.categorias .categoria:hover{
+    border-bottom: 5px solid rgb(95, 47, 2);
+}

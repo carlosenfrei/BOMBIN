@@ -1,0 +1,7 @@
+.contenedor--ListaContenedor h2{
+    color: rgba(116, 57, 2, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}

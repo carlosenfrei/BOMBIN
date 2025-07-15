@@ -1,0 +1,18 @@
+.contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.valor {
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 40px;
+    text-align: center;
+}
+button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
