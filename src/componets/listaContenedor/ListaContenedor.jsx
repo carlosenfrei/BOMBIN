@@ -1,6 +1,6 @@
 import "./ListaContenedor.css"
-import {getProductos} from "../data/productos.js";
-import { useEffect } from "react";
+
+
 import {ItemList} from "../ItemList/ItemList";
 import Carga from "../Carga/Carga"
 import useProductos from "../../hooks/useProductos.js";
@@ -14,7 +14,7 @@ const ListaContenedor = (props) => {
     
     
     return(
-        <div>
+        <div className="page-center">
             {carga ? <Carga /> : <ItemList productos={productos}/>}    
             
         

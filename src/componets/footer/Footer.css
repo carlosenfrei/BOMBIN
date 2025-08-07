@@ -1,0 +1,48 @@
+.footer{
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+}
+.footer-arriba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.footer .logo {
+    width: 80px;
+    height: 80px;
+}
+
+.categorias{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.categorias .categoria{
+    padding: 0 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.categorias .categoria:hover{
+    border-bottom: 5px solid rgb(95, 47, 2);
+}
+
+.footer-texto p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+link p {
+    text-decoration: none;
+}
+.accesoCarrito{
+    color:red;
+    text-decoration: none;
+    
+}

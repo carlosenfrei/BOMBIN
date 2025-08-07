@@ -1,0 +1,44 @@
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centrado vertical */
+    background-color: #f5f5f5; /* opcional, color de fondo */
+}
+
+.checkout-form__contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+}
+
+.checkout-form__input {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 2px solid #d4aa00; /* mostaza oscuro */
+    background-color: #ffd700;  /* color mostaza */
+    color: #5a5959; /* texto negro */
+}
+.checkout-form__input::placeholder {
+    color: #333; /* placeholder oscuro */
+    font-weight: bold;
+}
+
+.checkout-form__boton {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #f8c102; /* mostaza fuerte */
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-form__boton:hover {
+    background-color: #e6b800; /* tono más oscuro al pasar mouse */
+}

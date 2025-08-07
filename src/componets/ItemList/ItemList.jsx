@@ -2,7 +2,7 @@ import Item from "../item/item";
 import hocFiltroProductos from "../../hoc/hocFiltroProductos";
 const ItemList =({productos}) => {
     return(
-        <ul className="itemm-list"> 
+        <ul className="item-list"> 
             {
 
             productos.map((producto) => (

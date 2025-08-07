@@ -1,0 +1,44 @@
+.checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  background-color: #f5f5f5; 
+  padding: 20px;
+  text-align: center;
+}
+
+.checkout--contenedor {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.checkout--contenedor h2 {
+  margin-bottom: 15px;
+}
+
+.checkout--contenedor p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.checkout--contenedor button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f8c102;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout--contenedor button:hover {
+  background-color: #e6b800;
+}

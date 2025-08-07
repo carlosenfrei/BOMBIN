@@ -13,8 +13,8 @@ const FormImput = ({ nombre, setNombre, setMostrarSaludo }) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="Ingresa tu nombre" value={nombre} onChange={handleChange} />
-            <button type="submit">Ingresar</button> 
+            <input className="checkout-form__input" type="text" placeholder="Ingresa tu nombre" value={nombre} onChange={handleChange} />
+            <button className="checkout-form__boton" type="submit">Ingresar</button> 
         </form>
     );
 

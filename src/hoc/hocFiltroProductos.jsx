@@ -4,7 +4,7 @@ const hocFiltroProductos = (Componente)=>{
 
     return function() {
         const [query, setQuery]= useState("");
-        const {productos, carga} = useProductos();
+        const {productos} = useProductos();
 
         const changeInput =(event) =>{
             setQuery(event.target.value.toLowerCase());
@@ -12,16 +12,18 @@ const hocFiltroProductos = (Componente)=>{
 
         const buscar = (listaProductos) => {
             const filtroProductos = listaProductos.filter((producto) =>{
-                return producto.categoria.toLowerCase().includes(query);
+                return producto.categoria.toLowerCase().includes(query) || producto.sabor.toLowerCase().includes(query);
             });
             return filtroProductos;
         }
         return(
             <>
                 <div>
-                    <input type="text" placeholder="Buscar produsto.." onChange={changeInput}/>
+                    <label >Busqueda por categoria o sabor </label>
+                    <input type="text" placeholder="Buscar producto.." onChange={changeInput}/>
                 </div>
                 <Componente productos ={buscar(productos)}/>
+                
             </>
         )
     }
