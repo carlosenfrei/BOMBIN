@@ -10,12 +10,5 @@ El proyecto es un ecommmerce de venta de bombones artesanales de elaboracion pro
 - react-spinners
 - @emailjs/browser
 - @mercadopago/sdk-react (no se emplea)
-## Instalacion
 
-
-
-## Enlaces
-Enlace a GitHUB
-
-eNLACE A LINKDIN
 
